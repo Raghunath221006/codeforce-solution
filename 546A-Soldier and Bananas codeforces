@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    long long int a,b,c;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    long long int ans=0;
+    for(int i=1;i<=c;i++){
+        ans=ans+(a*i);
+        
+    }
+    if(ans-b<0){
+        cout<<0;
+    }
+    else{
+        cout<<ans-b;
+    }
+
+
+}
